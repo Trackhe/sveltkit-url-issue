@@ -1,0 +1,28 @@
+{
+	"name": "my-app",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"package": "svelte-kit package",
+		"preview": "vite preview",
+		"check": "svelte-check --tsconfig ./jsconfig.json",
+		"check:watch": "svelte-check --tsconfig ./jsconfig.json --watch",
+		"lint": "prettier --check --plugin-search-dir=. . && eslint .",
+		"format": "prettier --write --plugin-search-dir=. ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/kit": "next",
+		"eslint": "*",
+		"eslint-config-prettier": "*",
+		"eslint-plugin-svelte3": "*",
+		"prettier": "*",
+		"prettier-plugin-svelte": "*",
+		"svelte": "*",
+		"svelte-check": "*",
+		"typescript": "*",
+		"vite": "*"
+	},
+	"type": "module"
+}
